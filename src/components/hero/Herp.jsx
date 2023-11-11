@@ -23,6 +23,7 @@ const Herp = () => {
               <select type="text" placeholder="Локация для тура" />
               <p></p>
             </div>
+            zxc
             <div>
               <div>
                 <input type="date" placeholder="Дата похода" />
@@ -34,7 +35,6 @@ const Herp = () => {
               <select type="text" placeholder="Участники" />
               <p></p>
             </div>
-
             <div>
               <a href="">Найти программу</a>
             </div>
