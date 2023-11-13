@@ -1,0 +1,13 @@
+.main_frame {
+  width: 100%;
+  height: 100%;
+  background: #ffffff5b;
+  position: absolute;
+  z-index: 50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.none {
+  display: none;
+}

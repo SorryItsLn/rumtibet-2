@@ -1,6 +1,75 @@
-.bg{
-    background-image: url("../../assets/img/hero/hero_bg.png");
-    width: 100%;
-    height: 985px;
-    
+.bg {
+  background-image: url("../../assets/img/hero/hero_bg.png");
+  width: 100%;
+  height: 985px;
+}
+.date_input {
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 6px;
+  display: flex;
+}
+.date_input_item {
+  background: transparent;
+  width: 150px;
+  position: relative;
+
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: white;
+  list-style-type: none;
+  overflow: hidden;
+  border: 0px;
+  outline: none;
+}
+.date_p {
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: white;
+  list-style-type: none;
+  overflow: hidden;
+  border: 0px;
+  outline: none;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background: transparent;
+}
+.date_btn {
+  width: Hug (213px);
+  height: Hug (52px);
+  padding: 16px, 36px, 16px, 36px;
+  margin-bottom: 24px;
+  border-radius: 6px;
+  border: 1px solid #1a3e3e;
+  cursor: pointer;
+
+  background: white;
+  text-wrap: nowrap;
+
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #1a3e3e;
+
+  transition: 0.3s all ease;
+}
+.date_btn:hover {
+  background-color: #1a3e3e;
+  color: white;
+  border: 1px solid white;
 }
