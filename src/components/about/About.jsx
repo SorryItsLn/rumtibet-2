@@ -3,9 +3,8 @@ import img1 from "../../assets/img/about/about1.png";
 import img2 from "../../assets/img/about/about2.png";
 import circle from "../../assets/icons/navbar/about/circle.png";
 import rectangle from "../../assets/icons/navbar/about/rectangle.svg";
-import Frame from "./Frame";
 
-const About = () => {
+const About = ({ frame, setFrame }) => {
   return (
     <section className=" flex justify-center mt-[130px]   h-full">
       <div className="flex section justify-between">
@@ -17,12 +16,16 @@ const About = () => {
             <img src={img2} alt="" />
           </div>
           <div>
-            <div className="absolute"></div>
-
-            <div className="absolute top-[315px] left-[294px] ">
+            <div
+              className="absolute top-[315px] left-[294px] cursor-pointer "
+              onClick={() => setFrame(true)}
+            >
               <img src={circle} alt="" />
             </div>
-            <div className="absolute top-[329px] left-[307px]">
+            <div
+              className="absolute top-[329px] left-[307px]"
+              onClick={() => setFrame(true)}
+            >
               <img src={rectangle} alt="rectangle" />
             </div>
           </div>

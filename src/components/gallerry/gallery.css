@@ -1,0 +1,25 @@
+.gallery__media {
+  display: grid;
+  grid-template-columns: 280px 290px 280px 280px;
+  grid-template-rows: repeat(2, 250px);
+
+  gap: 10px;
+}
+.img1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.img4 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+.img5 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+.img {
+  cursor: pointer;
+}
+.img:hover {
+  backdrop-filter: blur(45px);
+}

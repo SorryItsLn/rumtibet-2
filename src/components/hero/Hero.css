@@ -73,3 +73,29 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   color: white;
   border: 1px solid white;
 }
+.date_btn_reverse {
+  width: Hug (213px);
+  height: Hug (52px);
+  padding: 16px, 36px, 16px, 36px;
+  margin-bottom: 24px;
+  border-radius: 6px;
+  border: 1px solid #1a3e3e;
+  background-color: #1a3e3e;
+  cursor: pointer;
+  text-wrap: nowrap;
+
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: white;
+
+  transition: 1s all ease;
+}
+.date_btn_reverse:hover {
+  background-color: white;
+  color: #1a3e3e;
+  border: 1px solid #1a3e3e;
+}

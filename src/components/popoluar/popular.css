@@ -1,0 +1,64 @@
+.card_main {
+  position: relative;
+}
+.card_title {
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: azure;
+  transition: 3s all ease;
+}
+
+.card_description {
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.card_price {
+  padding: 8px 16px;
+  background-color: #ffffff4d;
+  backdrop-filter: blur(45px);
+  border-radius: 4px;
+  transition: 1.5s ease-in;
+}
+.card_content_main {
+  position: absolute;
+  top: 410px;
+  width: 380px;
+  height: 90px;
+  background: #ffffff33;
+
+  backdrop-filter: blur(10px);
+  border-radius: 0px 0px 32px 32px;
+  transition: 1.5s ease-in;
+}
+.card_content {
+  /* */
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none;
+  transition: 0.5s ease-in;
+}
+.card_content_swiper {
+  opacity: 0;
+  transition: 1.5s ease-in;
+}
+.card_content_main:hover {
+  top: 0;
+  height: 500px;
+  border-radius: 32px 32px 32px 32px;
+  .card_content_swiper {
+    opacity: 100%;
+    pointer-events: all;
+  }
+  .card_price {
+    color: #f2be22;
+  }
+}
