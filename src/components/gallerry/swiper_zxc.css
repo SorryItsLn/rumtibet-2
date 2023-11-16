@@ -1,0 +1,28 @@
+.swiper-slide {
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 1s ease-in;
+}
+
+.swiper-item {
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.7s all ease;
+  margin: 10px;
+}
+.swiper-item :hover {
+  scale: 1.2;
+  border-radius: 6px;
+  .swiper-item {
+    border-radius: 6px;
+  }
+}
+.item {
+  object-fit: cover;
+  width: 100px;
+  border-radius: 3px;
+  transition: 0.8s all ease;
+}

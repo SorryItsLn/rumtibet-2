@@ -8,6 +8,7 @@
 .img1 {
   grid-column-start: 1;
   grid-column-end: 3;
+  transition: 0.7s all ease;
 }
 .img4 {
   grid-column-start: 1;
@@ -19,7 +20,16 @@
 }
 .img {
   cursor: pointer;
+  transition: 0.7s all ease;
+  position: relative;
 }
 .img:hover {
-  backdrop-filter: blur(45px);
+  transition: 0.7s all ease;
+  .image-zoom {
+    display: flex;
+  }
+}
+.image-zoom {
+  display: none;
+  transition: 0.7s all ease;
 }
